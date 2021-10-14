@@ -1,0 +1,14 @@
+.palestrantes {
+    background-color: var(--bg-orange);
+    min-height: 100vh;
+    padding: 3rem 5% 2rem;
+}
+
+h1 {
+    font-family: "Bebas Neue", cursive;
+    color: var(--beige);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}

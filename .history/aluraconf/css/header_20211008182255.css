@@ -1,0 +1,30 @@
+.header {
+background-image: url(../img/destaque.jpeg);
+    
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+
+    position: absolute;
+}
+
+.header_nav {
+    text-align: center;
+}
+
+.header_link {
+    font-size: 1.3rem;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #FFF;
+    margin: .75rem;
+}
+
+

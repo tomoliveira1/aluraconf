@@ -1,0 +1,45 @@
+
+
+.speakers {
+    background-color: var(--bg-orange);
+    min-height: 100vh;
+    padding: 3rem 5% 2rem;
+}
+
+h1 {
+    font-family: "Bebas Neue", cursive;
+    color: var(--white);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: var(--montserrat);
+    color: var(--light-beige);
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.speaker_job {
+    color: var(--clr-gray)
+}
+
+.card_button {
+    display: inline-block;
+    padding: 8px;
+    color: var(--white);
+    background-color: var(--bg-color-darker);
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}

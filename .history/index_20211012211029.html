@@ -1,0 +1,94 @@
+<!-- PROJETO FINAL - ALURACONF -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AluraConf</title>
+
+    <link rel="stylesheet" href="/aluraconf/css/reset.css" />
+    <link rel="stylesheet" href="/aluraconf/css/base.css" />
+
+    <link rel="stylesheet" href="aluraconf/css/header.css" />
+    <link rel="stylesheet" href="aluraconf/css/about.css" />
+    <link rel="stylesheet" href="aluraconf/css/palestrantes.css" />
+    <link rel="stylesheet" href="aluraconf/css/form.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header container">
+      <nav class="header_nav">
+        <ul>
+          <li class="header_link"><a href="">Sobre</a></li>
+          <li class="header_link"><a href="">Palestrantes</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header_text">
+        <h1 class="header_title">AluraConf</h1>
+        <h1 class="header_subtitle">30 Maio|Rio</h1>
+      </div>
+
+      <a class="header_button button" href="#">Inscreva-se</a>
+
+      <img class="header_image" src="aluraconf/img/phone.svg" alt="ilustração de uma pessoa usando um computador">
+    </header>
+
+    <main>
+      <section class="about container">
+        <h1>Muito conteúdo: do frontend ao backend</h1>
+        <h2>30 de Maio de 2017 - na Cidade Maravilhosa</h2>
+        <p>
+          Com a AluraConf abordaremos o que há de novidade e conhecimentos
+          essenciais a um desenvolvedor mobile
+        </p>
+        <p>
+          É uma grande chance de ficar por dentro dos assuntos de Android, iOS,
+          Wev mobile, desenvolvimento híbrido, UX, além da parte backend com
+          Rest, Microservices, e BigData. O desenvolvedor atualizado vai estar
+          aqui.
+        </p>
+      </section>
+
+      <section class="palestrantes container">
+        <h1>Palestrantes</h1>
+        <h2>Aprenda com palestrantes que são referências no mercado</h2>
+      </section>
+
+      <section class="form container">
+        <h1>seus dados</h1>
+        <div>
+          <form>
+            <label class="custom_field">
+              <input
+                class="form_input"
+                type="text"
+                id="nome"
+                placeholder="Nome Completo"
+              />
+            </label>
+
+            <label class="custom_field">
+              <input
+                class="form_input"
+                type="text"
+                id="email"
+                placeholder="Email"
+              />
+            </label>
+          </form>
+
+          <a class="submit_button button">Enviar</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-beige);
+    min-height: 50vh;
+    padding-top: 2rem;
+    align-items: center;
+}
+
+.form h1 {
+    font-family: "Bebas Neue", cursive;
+    color: var(--beige);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form_input {
+    display: flex;
+    border: none;
+    appearance: none;
+    background: var(--input);
+    padding: 12px;
+    border-radius: 3px;
+    margin-top: 2rem;
+}

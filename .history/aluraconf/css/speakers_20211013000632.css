@@ -1,0 +1,84 @@
+.speakers {
+  min-height: 100vh;
+  background-color: var(--bg-orange);
+  padding: 3rem 5% 2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  color: var(--white);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-family: var(--montserrat);
+  color: var(--light-beige);
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 18rem;
+  background-color: var(--light-beige);
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgb(15, 15, 15);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+.profile_picture {
+  margin-top: 2rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  box-shadow: 5px 5px 20px grey;
+}
+
+.info_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile_name {
+  margin: 2rem 2rem 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.profile_subtitle {
+  margin-bottom: 2rem;
+}
+
+.profile_description {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .cards {
+    flex-direction: row;
+  }
+
+  .card:hover {
+    height: 360px;
+    transition: all 1s ease;
+  }
+}

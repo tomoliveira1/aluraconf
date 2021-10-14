@@ -1,0 +1,23 @@
+/* Cores */
+:root {
+    --white: #FFF;
+    --beige: #BEA187;
+    --red: #EB4B36;
+    --bg-color: #2a2757;
+}
+
+body {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button {
+    background-color: var(--red);
+    text-align: center;
+    display: block;
+    width: 60%;
+    margin-top: 2rem;
+    max-width: 350px;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}

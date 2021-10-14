@@ -1,0 +1,54 @@
+/* Cores */
+:root {
+  --white: #fff;
+  --beige: #bea187;
+  --light-beige: #F8F5F2;
+  --red: #eb4b36;
+  --bg-orange: #BA5F53;
+  --bg-color-darker: #282355;
+  --bg-color-lighter: #533a8a;
+  --text-color: #3f434f;
+  --button: #5fa3a3;
+  --clr-primary: #651fff;
+  --clr-gray: #37474f;
+  --clr-gray-light: #b0bec5;
+  --input: #d5d5d5;
+
+  --bebas-neue: "Bebas Neue", cursive;
+  --montserrat: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  padding-right: 6%;
+  padding-left: 6%;
+}
+
+.button {
+  display:inline-block;
+   padding:0.46em 1.6em;
+   border:0.1em solid #000000;
+   margin:0 0.2em 0.2em 0;
+   border-radius:0.12em;
+   box-sizing: border-box;
+   text-decoration:none;
+   font-family:'Roboto',sans-serif;
+   font-weight:300;
+   color:#000000;
+   text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+   background-color:#FFFFFF;
+   text-align:center;
+   transition: all 0.15s;
+}
+
+.button:hover {
+  background-color: ;
+}

@@ -1,0 +1,32 @@
+
+
+.speakers {
+    background-color: var(--bg-orange);
+    min-height: 100vh;
+    padding: 3rem 5% 2rem;
+}
+
+h1 {
+    font-family: "Bebas Neue", cursive;
+    color: var(--white);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: var(--montserrat);
+    color: var(--light-beige);
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: var(--light-beige);
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px black;
+}

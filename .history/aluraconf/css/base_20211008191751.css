@@ -1,0 +1,10 @@
+/* Cores */
+:root {
+    --branco: #FFF;
+    --beige: #BEA187;
+}
+
+body {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Montserrat", sans-serif;
+}

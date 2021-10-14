@@ -1,0 +1,19 @@
+.form {
+    background-color: var(--light-beige);
+    min-height: 100vh;
+    padding: 3rem 5% 2rem;
+}
+
+.form h1 {
+    font-family: "Bebas Neue", cursive;
+    color: var(--beige);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form input {
+    width: 100%;
+    padding: 1rem;
+}
