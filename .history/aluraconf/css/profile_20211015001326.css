@@ -1,0 +1,10 @@
+.banner {
+    background-color: var(--input);
+    color: var(--white);
+    padding: 1rem;
+}
+
+.banner_title {
+    text-align: center;
+    text-transform: uppercase;
+}

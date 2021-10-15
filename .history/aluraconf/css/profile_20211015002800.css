@@ -1,0 +1,22 @@
+.banner {
+    background-color: var(--input);
+    color: var(--white);
+    padding: 1rem;
+}
+
+.banner_title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.profile_image {
+    margin-top: 1rem;
+    position: relative;
+    display: inline-block;
+}
+
+.profile_avatar {
+    width: 150px;
+    height: 150px;
+}

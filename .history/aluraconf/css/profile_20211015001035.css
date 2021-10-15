@@ -1,0 +1,6 @@
+.banner {
+    background-color: var(--beige);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+}

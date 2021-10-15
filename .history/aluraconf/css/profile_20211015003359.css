@@ -1,0 +1,31 @@
+.banner {
+    background-color: var(--input);
+    color: var(--white);
+    padding: 1rem;
+}
+
+.banner_title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.profile_container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_image {
+    margin-top: 1rem;
+    position: relative;
+    display: inline-block;
+}
+
+.profile_avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid var(--bg-color-darker);
+}

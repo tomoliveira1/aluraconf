@@ -1,0 +1,5 @@
+.banner {
+    box-sizing: border-box;
+    background-color: var(--beige);
+    text-transform: uppercase;
+}

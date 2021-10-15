@@ -1,0 +1,47 @@
+.banner {
+  background-color: var(--input);
+  color: var(--white);
+  padding: 1rem;
+}
+
+.banner_title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.profile_container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile_image {
+  margin-top: 2rem;
+  position: relative;
+  display: inline-block;
+}
+
+.profile_avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-size: cover;
+  border: 3px solid var(--bg-color-darker);
+}
+
+.profile_name {
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--bg-color-lighter);
+}
+
+.profile_bio {
+  margin-top: 1rem;
+  font-size: 15px;
+  line-height: 1.2;
+}
